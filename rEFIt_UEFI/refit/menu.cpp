@@ -1542,7 +1542,7 @@ void HelpRefit(void)
         break;
       case english:
       default:
-        HelpMenu.AddMenuInfo_f("ESC - Escape from submenu, Refresh main menu");
+        HelpMenu.AddMenuInfo_f("(Start)/(B) - Escape from submenu, Refresh main menu");
         HelpMenu.AddMenuInfo_f("F1  - This help");
         HelpMenu.AddMenuInfo_f("F2  - Save preboot.log into %ls/misc/ (FAT32)", self.getCloverDirFullPath4Display().wc_str());
         HelpMenu.AddMenuInfo_f("F3  - Show hidden entries");
