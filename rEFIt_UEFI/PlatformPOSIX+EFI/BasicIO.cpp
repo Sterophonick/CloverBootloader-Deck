@@ -30,7 +30,7 @@ BOOLEAN ReadAllKeyStrokes(void)
 void PauseForKey(const XString8& msg)
 {
   printf("%s", msg.c_str());
-  printf("Press any key ");
+  printf("Press any button ");
   getchar();
   printf("\n");
 }
